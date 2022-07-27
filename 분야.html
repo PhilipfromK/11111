@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MY BLOG</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".outer-menu-item").hover(
+          function () {
+            $(this).find(".inner-menu").show();
+          },
+          function () {
+            $(this).find(".inner-menu").hide();
+          }
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="main-header">
+        <hgroup>
+          <h1 class="master-title">Where did English come from</h1>
+          <h2 class="master-description">PHilip17587@gmail.com</h2>
+        </hgroup>
+        <nav id="main-navigation">
+          <div class="pull-left">
+           
+          </div>
+          <div class="pull-right">
+            <div class="search-bar">
+              <form>
+                <input type="text" class="input-search" />
+                <input
+                  type="submit"
+                  class="input-search-submit"
+                  value="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="content">
+        <section id="main-section">
+          <article>
+            <div class="article-header">
+              <h1 class="article-title"></h1>
+            </div>
+            <div class="article-body">
+              <img src="eng.jpg" />
+            
+              <p></p>
+              <p></p>
+             
+            </div>
+          </article>
+        </section>
+       
+      </div>
+      <footer id="main-footer">
+        <a href="https://www.youtube.com/watch?v=YEaSxhcns7Y">Interesting Lesson by Claire Bowern</a>
+      </footer>
+    </div>
+  </body>
+</html>

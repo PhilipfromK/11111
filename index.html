@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>MY BLOG</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".outer-menu-item").hover(
+          function () {
+            $(this).find(".inner-menu").show();
+          },
+          function () {
+            $(this).find(".inner-menu").hide();
+          }
+        );
+      });
+    </script>
+  </head>
+  <body>
+    <div id="page-wrapper">
+      <header id="main-header">
+        <hgroup>
+          <h1 class="master-title"> Philip</h1>
+          <h2 class="master-description">PHilip17587@gmail.com</h2>
+        </hgroup>
+        <nav id="main-navigation">
+          <div class="pull-left">
+            <ul class="outer-menu">
+              <li class="outer-menu-item">
+                <span class="menu-title">MBTI</span>
+                <ul class="inner-menu">
+              
+                  <li class="inner-menu-item">
+                    <a href="oott.html">ENFP</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="outer-menu-item">
+                <a href="playlist.html">Playlist</a>
+              </li>
+              <li class="outer-menu-item">
+                <a href="분야.html">분야
+                
+                </a>
+              </li>
+
+            </ul>
+          </div>
+          <div class="pull-right">
+            <div class="search-bar">
+              <form>
+                <input type="text" class="input-search" />
+                <input
+                  type="submit"
+                  class="input-search-submit"
+                  value="Search"
+                />
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div id="content">
+        <section id="main-section">
+          <article>
+            <div class="article-header">
+              <h1 class="article-title">저는 김필립입니다.</h1>
+            </div>
+            <div class="article-body">
+              <img src="B.webp" />
+              <p>안녕하세요, 저는 용문고등학교에 재학중인 김필립입니다.</p>
+              
+            </div>
+          </article>
+        </section>
+       
+      </div>
+      <footer id="main-footer">
+        <a href="https://www.google.com/search?q=Philip&oq=Philip&aqs=chrome.0.69i59j46i67j46i131i433i512j0i3j46i131i199i433i465i512l2j0i131i433i512j46i199i465i512j46i512l2.30732j0j15&sourceid=chrome&ie=UTF-8">I Go By The Name Of Philip</a>
+      </footer>
+    </div>
+  </body>
+</html>
